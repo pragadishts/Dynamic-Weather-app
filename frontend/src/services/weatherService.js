@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://dynamic-weather-app-eoyr.onrender.com/api';
 
 export const fetchWeatherData = async (cityName) => {
   if (!cityName.trim()) {
